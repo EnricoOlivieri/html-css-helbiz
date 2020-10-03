@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.container{
+  height: 50px;
+  border: 1px solid black;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.top-header img{
+  width: 80px;
+  vertical-align: middle;
+}
+
+[class*="nav-"] li{
+  display: inline-block;
+}
+
+[class*="nav-"] li a{
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+.ghost-align::before{
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
