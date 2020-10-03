@@ -32,9 +32,7 @@ html{
 }
 
 .ghost-align::before{
+  position: absolute;
   content: "";
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
+  line-height: normal;
 }
