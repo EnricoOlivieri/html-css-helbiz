@@ -31,8 +31,35 @@ html{
   margin: 10px;
 }
 
-.ghost-align::before{
+.ghost-align{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-left{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.background-header{
+  background-image: url('file:///Users/mac/Downloads/img/hero-bg.jpg');
+  height: 400px;
+  color: white;
+  position: relative;
+}
+
+#border-nav-left{
+  border-right: 1px solid black;
+}
+
+.text{
   position: absolute;
-  content: "";
-  line-height: normal;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#text-image{
+  height: 40px;
 }
